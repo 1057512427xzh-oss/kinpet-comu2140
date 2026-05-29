@@ -5,7 +5,6 @@ KinPet is a fictional multi-page website for a COMU2140 final project. It presen
 ## Pages
 
 - `/`
-- `/about`
 - `/offerings`
 - `/how-it-works`
 - `/impact`

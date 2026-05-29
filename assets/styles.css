@@ -88,6 +88,15 @@ h3 {
   font-weight: 750;
 }
 
+.subhead {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
 button,
 input,
 textarea,
@@ -350,6 +359,32 @@ select {
   text-align: right;
 }
 
+.pet-visual-stack {
+  width: min(46%, 150px);
+  display: grid;
+  gap: 8px;
+}
+
+.pet-visual-stack span {
+  height: 10px;
+  border-radius: 999px;
+  background: var(--muted);
+}
+
+.pet-visual-stack span:nth-child(1) {
+  width: 84%;
+  background: var(--gradient);
+}
+
+.pet-visual-stack span:nth-child(2) {
+  width: 100%;
+}
+
+.pet-visual-stack span:nth-child(3) {
+  width: 68%;
+  background: linear-gradient(to right, var(--warm), rgba(47, 128, 237, 0.45));
+}
+
 .score strong {
   display: block;
   font-family: var(--mono);
@@ -405,6 +440,31 @@ select {
   display: block;
   margin-top: 18px;
   font-size: 1.2rem;
+}
+
+.visual-insight {
+  position: relative;
+  overflow: hidden;
+}
+
+.visual-insight::before,
+.visual-insight::after {
+  content: "";
+  display: block;
+  border-radius: 999px;
+}
+
+.visual-insight::before {
+  width: 42px;
+  height: 42px;
+  background: var(--gradient);
+}
+
+.visual-insight::after {
+  width: 76%;
+  height: 11px;
+  margin-top: 24px;
+  background: var(--muted);
 }
 
 .section {
@@ -538,6 +598,15 @@ select {
   border-color: rgba(255, 255, 255, 0.12);
   background: rgba(255, 255, 255, 0.06);
   box-shadow: none;
+}
+
+.dark-callout {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.dark-callout p {
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .timeline {
