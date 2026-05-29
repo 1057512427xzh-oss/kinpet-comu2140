@@ -1,6 +1,6 @@
-# GlowUp AI
+# KinPet
 
-GlowUp AI is a fictional multi-page website for a COMU2140 final project. It presents a polished AI/SaaS platform while satirizing beauty analytics, data extraction, attention economies, algorithmic nudging, and self-optimization culture.
+KinPet is a fictional multi-page website for a COMU2140 final project. It presents a polished pet-care SaaS platform while satirizing platformisation, data extraction, algorithmic recommendation, attention economies, technological lock-in, and the monetization of everyday care.
 
 ## Pages
 
@@ -18,4 +18,3 @@ python3 -m http.server 5173
 ```
 
 Then open `http://localhost:5173`.
-
